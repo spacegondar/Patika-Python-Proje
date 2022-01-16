@@ -7,7 +7,7 @@ input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
 output: [1,'a','cat',2,3,'dog',4,5]
 
-'''
+
     n=[]
     q=[]
     a=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]
@@ -25,7 +25,7 @@ output: [1,'a','cat',2,3,'dog',4,5]
         else:
             n.append(i)
     print(n)
-'''
+
 
 #### 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün. Örnek olarak:
 
