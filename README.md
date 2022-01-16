@@ -26,3 +26,13 @@ output: [1,'a','cat',2,3,'dog',4,5]
             n.append(i)
     print(n)
 '''
+
+#### 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün. Örnek olarak:
+
+    b = [[1, 2], [3, 4], [5, 6, 7]]
+    n=[]
+    
+    for i in b:
+        n.append(i[::-1])
+    n=n[::-1]
+    print(n)
